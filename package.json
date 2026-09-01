@@ -1,0 +1,43 @@
+{
+  "name": "nexora-agents",
+  "version": "1.0.2",
+  "description": "AI-powered development workflows for GitHub Copilot",
+  "type": "module",
+  "license": "MIT",
+  "author": "Suraj Yadav",
+  "homepage": "https://github.com/surajydsde/nexora-agents#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/surajydsde/nexora-agents.git"
+  },
+  "bugs": {
+    "url": "https://github.com/surajydsde/nexora-agents/issues"
+  },
+  "keywords": [
+    "ai",
+    "ai-agents",
+    "github-copilot",
+    "automation",
+    "developer-tools",
+    "workflow",
+    "software-engineering",
+    "productivity"
+  ],
+  "bin": {
+    "nexora-agents": "./bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "templates",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0",
+    "fs-extra": "^11.3.0",
+    "inquirer": "^12.0.0",
+    "ora": "^8.0.0"
+  }
+}
