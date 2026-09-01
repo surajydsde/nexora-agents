@@ -1,0 +1,42 @@
+{
+  "name": "nexora-agents",
+  "version": "1.5.1",
+  "description": "Universal AI workflow installer for GitHub Copilot, Claude Code, and Gemini CLI",
+  "type": "module",
+  "license": "MIT",
+  "author": "Suraj Yadav",
+  "homepage": "https://github.com/surajydsde/nexora-agents#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/surajydsde/nexora-agents.git"
+  },
+  "bugs": {
+    "url": "https://github.com/surajydsde/nexora-agents/issues"
+  },
+  "keywords": [
+    "ai",
+    "ai-agents",
+    "github-copilot",
+    "claude-code",
+    "gemini-cli",
+    "cursor",
+    "automation"
+  ],
+  "bin": {
+    "nexora-agents": "./bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "templates",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0",
+    "fs-extra": "^11.3.0",
+    "inquirer": "^12.0.0",
+    "ora": "^8.0.0"
+  }
+}
